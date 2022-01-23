@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite for grouping " duration-ms="109" started-at="2022-01-22T16:40:28Z" finished-at="2022-01-22T16:40:28Z">
+    <groups>
+      <group name="regression">
+        <method signature="Group.Test_01()[pri:0, instance:groupingTest.Group@47c62251]" name="Test_01" class="groupingTest.Group"/>
+        <method signature="Group.Test_01()[pri:0, instance:groupingTest.Group@31ef45e3]" name="Test_01" class="groupingTest.Group"/>
+        <method signature="Group.Test_03()[pri:0, instance:groupingTest.Group@31ef45e3]" name="Test_03" class="groupingTest.Group"/>
+        <method signature="Group.Test_01()[pri:0, instance:groupingTest.Group@271053e1]" name="Test_01" class="groupingTest.Group"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="Group.Test_01()[pri:0, instance:groupingTest.Group@47c62251]" name="Test_01" class="groupingTest.Group"/>
+        <method signature="Group.Test_01()[pri:0, instance:groupingTest.Group@31ef45e3]" name="Test_01" class="groupingTest.Group"/>
+        <method signature="Group.Test_01()[pri:0, instance:groupingTest.Group@271053e1]" name="Test_01" class="groupingTest.Group"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test 1 for grouping " duration-ms="47" started-at="2022-01-22T16:40:28Z" finished-at="2022-01-22T16:40:28Z">
+      <class name="groupingTest.Group">
+        <test-method status="PASS" signature="Test_01()[pri:0, instance:groupingTest.Group@47c62251]" name="Test_01" duration-ms="16" started-at="2022-01-22T16:40:28Z" finished-at="2022-01-22T16:40:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_01 -->
+      </class> <!-- groupingTest.Group -->
+    </test> <!-- Test 1 for grouping  -->
+    <test name="Test 2 for grouping " duration-ms="15" started-at="2022-01-22T16:40:28Z" finished-at="2022-01-22T16:40:28Z">
+      <class name="groupingTest.Group">
+        <test-method status="PASS" signature="Test_01()[pri:0, instance:groupingTest.Group@31ef45e3]" name="Test_01" duration-ms="15" started-at="2022-01-22T16:40:28Z" finished-at="2022-01-22T16:40:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_01 -->
+        <test-method status="PASS" signature="Test_03()[pri:0, instance:groupingTest.Group@31ef45e3]" name="Test_03" duration-ms="15" started-at="2022-01-22T16:40:28Z" finished-at="2022-01-22T16:40:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_03 -->
+      </class> <!-- groupingTest.Group -->
+    </test> <!-- Test 2 for grouping  -->
+    <test name="Test 3 for grouping " duration-ms="0" started-at="2022-01-22T16:40:28Z" finished-at="2022-01-22T16:40:28Z">
+      <class name="groupingTest.Group">
+        <test-method status="PASS" signature="Test_01()[pri:0, instance:groupingTest.Group@271053e1]" name="Test_01" duration-ms="0" started-at="2022-01-22T16:40:28Z" finished-at="2022-01-22T16:40:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_01 -->
+      </class> <!-- groupingTest.Group -->
+    </test> <!-- Test 3 for grouping  -->
+  </suite> <!-- Suite for grouping  -->
+</testng-results>

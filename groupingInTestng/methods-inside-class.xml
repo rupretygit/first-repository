@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="Suite for grouping " parallel="methods">
+   <test name="Test 1 for grouping ">
+        <classes>
+          <class name="groupingTest.Group">
+            <methods>
+             <include name="Test_01" />
+            </methods>
+          </class>
+        </classes>
+   </test>
+ 
+  <test name="Test 2 for grouping ">
+        <classes>
+          <class name="groupingTest.Group">
+          </class>
+        </classes>
+   </test>
+ 
+  <test name="Test 3 for grouping ">
+        <classes>
+           <class name="groupingTest.Group">
+              <methods>
+             <include name="Test_01" />
+            </methods>
+  
+          </class>
+        </classes>
+   </test>
+ 
+</suite>
