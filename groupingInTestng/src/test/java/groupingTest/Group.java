@@ -27,7 +27,7 @@ public class Group extends BaseClass{
     @Test(groups= {"sanity", "regression"})
 	public void Test_01()
 	{ 
-    	System.out.println("I am Test_01() method included the sanity and regression group");
+    	System.out.println("I'm Test_01() method included the sanity and regression group");
   	}
     
     
